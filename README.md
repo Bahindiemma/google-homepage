@@ -1,0 +1,2 @@
+The current project is building a google-homepage using html and css. The aim of the project is to create the structure and layout of the google-home page. 
+By the end of this project i had learnt how to structure my html and how to style it using css.
