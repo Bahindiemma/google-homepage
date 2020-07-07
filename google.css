@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: rgb(248, 244, 244);
+}
+
+#container {
+    min-height: 100%;
+    align-items: center;
+}
+
+#left {
+    position: relative;
+    top: 0;
+    left: 0px;
+}
+
+#right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#left-ul {
+    font-size: 17px;
+    word-spacing: .5em;
+    margin-left: 10px;
+}
+
+#left-li {
+    list-style: none;
+    display: inline-block;
+}
+
+#right-ul {
+    font-size: 17px;
+    word-spacing: .5em;
+}
+
+#right-li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#left-li a {
+    text-decoration: none;
+    margin-bottom: 10%;
+}
+
+#right-li a {
+    text-decoration: none;
+    margin-bottom: 10%;
+}
+
+#search-apps {
+    width: 20px;
+    height: auto;
+    vertical-align: middle;
+}
+
+#main {
+    position: relative;
+    top: 200px;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 100px;
+}
+
+#footer {
+    color: rgb(27, 21, 21);
+    background-color: rgb(224, 215, 215);
+    position: relative;
+    margin-top: -50px;
+    clear: both;
+    height: 50px;
+}
+
+.footer-ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.footer-li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+}
+
+.footer-li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: lighter;
+    transition: width .3s;
+}
+
+.links::after {
+    content: '';
+    width: 0;
+    display: block;
+    transition: width .0s;
+    height: 2px;
+    background: rgb(70, 66, 66);
+}
+
+.links:hover::after {
+    width: 100%;
+    transition: width .0s;
+}
+
+.col-1 {
+    position: absolute;
+    bottom: 15px;
+    left: 5%;
+}
+
+.col-2 {
+    position: absolute;
+    bottom: 15px;
+    right: 5%;
+}
+
+
+/*current country*/
+
+.country {
+    border: 0.5px solid thistle;
+    background-color: rgb(224, 215, 215);
+    color: black;
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+}
+
+input[type=text] {
+    width: 35%;
+    padding: 15px;
+    border-radius: 30px;
+    display: inline;
+    font-weight: lighter;
+}
+
+input[type=text]:hover {
+    background-color: white;
+}
+
+#google-logo {
+    margin: 0 auto 0 auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#search {}
+
+input[type=button] {
+    padding: 8px;
+    margin-top: 30px;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+.fa {
+    position: absolute;
+    top: 38%;
+    left: 32%;
+}
